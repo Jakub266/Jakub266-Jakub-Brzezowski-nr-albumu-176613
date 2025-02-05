@@ -29,7 +29,7 @@
 
 # Obrazki
 
-![Przykładowy obrazek]()
+![Logo Google](images.webp)
 
 ---
 
