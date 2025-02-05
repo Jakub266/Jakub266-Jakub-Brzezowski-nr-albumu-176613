@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                git branch: 'main', url: 'https://github.com/Jakub266/Jakub-Brzezowski-nr-albumu-176613.git'
+            }
+        }
+        stage('Print Student Info') {
+            steps {
+                script {
+                    def studentName = "Jakub Brzezowski"
+                    def studentId = "176613"
+                    echo "Student: ${studentName}"
+                    echo "Numer indeksu: ${studentId}"
+                }
+            }
+        }
+    }
+}
