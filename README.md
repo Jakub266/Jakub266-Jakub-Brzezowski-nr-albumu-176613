@@ -33,6 +33,12 @@
 
 ---
 
+# Wprowadzenie zmian
+
+Wprowadzenie zmian
+
+---
+
 # Kod wstawiony w blokach
 
 ```python
